@@ -1,0 +1,74 @@
+.container{
+    max-width: 112.5vw;
+    max-height: 161vh;
+    opacity: 1; 
+    margin: auto;
+} 
+
+.navbar{
+    display: flex;
+    margin-left: 18vw;
+    background-color: #FFFFFF;
+    padding-top: 3vh;
+}
+
+.header{
+    margin-left: 2vw;
+    margin-top: 2.5vh;
+    font-size: 1.25em;
+}
+
+.search-box{
+    margin-left: 25vw;
+    width: 20vw;
+    height: 10vh;
+}
+.search-box input{
+    background-color: #E5E5E5;
+    width: 20vw;
+    height: 10vh;
+    border: none;
+    outline: none;
+    border-radius: 3vw;
+}
+input::placeholder{
+    color: #8BA3CB;
+    padding-left: 3vw;
+}
+
+.search-icon{
+    position: absolute;
+    top: 6%;
+    left: 52%;
+}
+
+.settings-icon{
+    padding-left: 4vw;
+}
+
+.notif-icon{
+    padding-left: 4vw;
+}
+
+.profile-icon img{
+    margin-left: 4vw;
+    width: 4.5vw;
+    height: 10vh;
+    border-radius: 50%;
+}
+.sidebar{
+    margin-top: 2vh;
+    text-align: center;
+    margin-right: 90vw;
+    position: absolute;
+}
+.sidebar *{
+    margin-bottom: 2vh;
+}
+.bankdashlogo img{
+    position: absolute;
+    top: 3%;
+    width: 3vw;
+    height: 6vh;
+    left: 2%;
+}

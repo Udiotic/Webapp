@@ -1,0 +1,125 @@
+    
+.container{
+    max-width: 112.5vw;
+    max-height: 161vh;
+    opacity: 1; 
+    margin: auto;
+}   
+
+.logo
+{
+    margin-top: 5vh;
+    margin-left: 3.35vw;
+    right: 101vw;
+    font-size: 1.25em;
+    color: #232323;
+    background: 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.splashtext {
+    margin-top: 40vh;
+    margin-left: 11vw;
+    height: 10vh;
+    float: left;
+}
+.inputs{
+    margin-right: 7vw;
+    margin-top: 16vh;
+    float: right;
+}
+
+.inputs input{
+    background-color: #F0EFFF;
+    border-radius: 1vw;
+    border: none;
+    outline: none;
+    width: 29vw;
+    height: 11vh;
+    padding-left: 1vw;
+}
+
+.email{
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+}
+.contact{
+    padding-bottom: 2.5vh;
+}
+.username{
+    padding-bottom: 2.5vh;
+}
+
+.password{
+    padding-bottom: 2.5vh;
+}
+.confirmpassword{
+    padding-bottom: 3vh;
+}
+input::placeholder {
+    color: #A7A3FF;
+    font-size: 1em;
+}
+    
+.splashtext .uppersplashtext{
+    padding-bottom: 3vh;
+    font-size: 3em;
+}
+.splashtext .lowersplashtext{
+    font-size: 2em;
+    padding-bottom: 6vh;
+
+}
+.lowerregistertext{
+    padding-top: 2vh;
+}
+.registerhere{
+    color: #4D47C3;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signin{
+    font-size: 2em;
+}
+
+.forgotpasswordtext{
+    cursor: pointer;
+}
+.inputs button{
+    background-color: #4D47C3;
+    font-size: 1em;
+    border-radius: 1vh;
+    border: none;
+    outline: none;
+    width: 30vw;
+    height: 11vh;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.alternatesignin{
+    padding-top: 7vh;
+    text-align: center;
+    color: #B0B0B0;
+}
+.alternatesignin img{
+    padding-top: 6vh;
+    padding-right: 3.125vw;
+
+}
+.eyeslash-one{
+    cursor: pointer;
+    position : absolute;
+    top: 83%;
+    left: 90%;
+}
+.eyeslash-two{
+    cursor: pointer;
+    position : absolute;
+    top: 97%;
+    left: 90%;
+}
+.splashimage img{
+    position: absolute;
+    top: 67%;
+    left: 34%;
+}
